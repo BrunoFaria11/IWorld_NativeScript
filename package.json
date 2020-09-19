@@ -1,0 +1,61 @@
+{
+    "nativescript": {
+        "id": "org.nativescript.iworld",
+        "tns-android": {
+            "version": "6.5.0"
+        },
+        "tns-ios": {
+            "version": "6.5.0"
+        }
+    },
+    "description": "NativeScript Application",
+    "license": "SEE LICENSE IN <your-license-filename>",
+    "repository": "<fill-your-repository-here>",
+    "scripts": {
+        "lint": "yarn prettier && eslint . --ext .ts --fix",
+        "prettier": "prettier --write ./src",
+        "start": "yarn lint && tns debug android"
+    },
+    "dependencies": {
+        "@angular/animations": "~8.2.0",
+        "@angular/common": "~8.2.0",
+        "@angular/compiler": "~8.2.0",
+        "@angular/core": "~8.2.0",
+        "@angular/forms": "~8.2.0",
+        "@angular/platform-browser": "~8.2.0",
+        "@angular/platform-browser-dynamic": "~8.2.0",
+        "@angular/router": "~8.2.0",
+        "@nativescript/theme": "~2.3.3",
+        "@typescript-eslint/eslint-plugin": "^4.1.1",
+        "@typescript-eslint/parser": "^4.1.1",
+        "eslint": "^7.9.0",
+        "eslint-config-prettier": "^6.11.0",
+        "eslint-plugin-filenames": "^1.3.2",
+        "eslint-plugin-import": "^2.22.0",
+        "eslint-plugin-jest": "^24.0.1",
+        "eslint-plugin-lodash": "^7.1.0",
+        "eslint-plugin-mocha": "^8.0.0",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-security": "^1.4.0",
+        "eslint-plugin-sort-class-members": "^1.8.0",
+        "eslint-plugin-sort-imports-es6": "^0.0.3",
+        "eslint-plugin-sort-imports-es6-autofix": "^0.5.0",
+        "eslint-plugin-sql-template": "^2.0.0",
+        "jest": "^26.4.2",
+        "nativescript-angular": "~8.21.0",
+        "prettier": "^2.1.2",
+        "reflect-metadata": "~0.1.12",
+        "rxjs": "^6.4.0",
+        "tns-core-modules": "~6.5.0",
+        "zone.js": "~0.9.1"
+    },
+    "devDependencies": {
+        "@angular/compiler-cli": "~8.2.0",
+        "@ngtools/webpack": "~8.2.0",
+        "nativescript-dev-webpack": "~1.5.1",
+        "tslint": "^6.1.3",
+        "typescript": "^4.0.3"
+    },
+    "gitHead": "2250137db8c1e0bd0eb543e8e4563cb71480c00d",
+    "readme": "NativeScript Application"
+}
